@@ -1,5 +1,5 @@
 import React from 'react';
-import background from '../../static/images/portfolio_background.png';
+import background from '../static/images/portfolio_cartoon.png';
 
 class Home extends React.Component {
   render() {

@@ -8,12 +8,8 @@ class App extends React.Component {
     return (
       <Router>
         <Routes>
-          <Route path='/'>
-            <Home/>
-          </Route>
-          <Route path='*'>
-            <Home/>
-          </Route>
+          <Route path='/' element={<Home/>}/>
+          <Route path='*' element={<Home/>}/>
         </Routes>
       </Router>
     );
