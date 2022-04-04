@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div>
         <h1>Welcome to Jaewon's Portfolio</h1>
-        <img src={background}/>
+        <img src={background} alt='home page background'/>
       </div>
     );
   }
